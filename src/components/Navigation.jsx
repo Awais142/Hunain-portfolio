@@ -77,7 +77,7 @@ const Navigation = () => {
                   className={`p-3 rounded-full transition-all duration-300 ${
                     isActive
                       ? "bg-gradient-to-br from-blue-500 to-purple-600 text-white"
-                      : "text-gray-600 hover:text-blue-500 hover:bg-white/20"
+                      : "text-white-600 hover:text-blue-500 hover:bg-white/20"
                   }`}
                 >
                   <Icon className="w-5 h-5" />
@@ -85,7 +85,7 @@ const Navigation = () => {
                 <motion.div
                   initial={{ opacity: 0, x: -10 }}
                   whileHover={{ opacity: 1, x: 0 }}
-                  className="absolute left-full ml-4 top-1/2 -translate-y-1/2 bg-gray-900 text-white px-3 py-1.5 rounded-md text-sm whitespace-nowrap pointer-events-none"
+                  className="absolute left-full ml-4 top-1/2 -translate-y-1/2 bg-white-900 text-white px-3 py-1.5 rounded-md text-sm whitespace-nowrap pointer-events-none"
                 >
                   {item.label}
                   <div className="absolute right-full top-1/2 -translate-y-1/2 border-4 border-transparent border-r-gray-900"></div>
