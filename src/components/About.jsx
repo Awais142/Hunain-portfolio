@@ -45,12 +45,12 @@ const About = ({ data }) => {
         >
           {/* Left Side - Content */}
           <motion.div variants={itemVariants} className="space-y-6">
-            <motion.div
+            <motion.h2
               variants={itemVariants}
-              className="inline-block px-4 py-1.5 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full border border-blue-500/30 text-sm text-blue-300 mb-4"
+              className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-400 mb-2 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"
             >
-              Welcome
-            </motion.div>
+              Hello, I'm
+            </motion.h2>
 
             <motion.h1
               variants={itemVariants}
