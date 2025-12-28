@@ -121,7 +121,7 @@ const Navigation = () => {
                     className={`p-2.5 rounded-full transition-all duration-300 ${
                       isActive
                         ? "bg-gradient-to-br from-blue-500 to-purple-600 text-white"
-                        : "text-gray-600"
+                        : "text-white-600"
                     }`}
                   >
                     <Icon className="w-4 h-4" />
